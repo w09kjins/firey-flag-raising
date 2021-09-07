@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9748A6B726E709CD008C0B9C /* FlagData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9748A6B626E709CD008C0B9C /* FlagData.json */; };
 		9756461F26E5B0B800569221 /* Firey_Flag_RaiserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9756461E26E5B0B800569221 /* Firey_Flag_RaiserApp.swift */; };
 		9756462126E5B0B800569221 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9756462026E5B0B800569221 /* ContentView.swift */; };
 		9756462326E5B0C300569221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9756462226E5B0C300569221 /* Assets.xcassets */; };
 		9756462626E5B0C300569221 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9756462526E5B0C300569221 /* Preview Assets.xcassets */; };
 		9756463126E5B0C400569221 /* Firey_Flag_RaiserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9756463026E5B0C400569221 /* Firey_Flag_RaiserTests.swift */; };
 		9756463C26E5B0C400569221 /* Firey_Flag_RaiserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9756463B26E5B0C400569221 /* Firey_Flag_RaiserUITests.swift */; };
+		9756464D26E5B14100569221 /* FlagRaisingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9756464C26E5B14100569221 /* FlagRaisingView.swift */; };
+		9756465226E5B17A00569221 /* FlagSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9756465126E5B17A00569221 /* FlagSelectorView.swift */; };
+		9756465726E5B63200569221 /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9756465626E5B63200569221 /* Flag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9748A6B626E709CD008C0B9C /* FlagData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlagData.json; sourceTree = "<group>"; };
 		9756461B26E5B0B700569221 /* Firey Flag Raiser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firey Flag Raiser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9756461E26E5B0B800569221 /* Firey_Flag_RaiserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firey_Flag_RaiserApp.swift; sourceTree = "<group>"; };
 		9756462026E5B0B800569221 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +50,9 @@
 		9756463726E5B0C400569221 /* Firey Flag RaiserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Firey Flag RaiserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9756463B26E5B0C400569221 /* Firey_Flag_RaiserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firey_Flag_RaiserUITests.swift; sourceTree = "<group>"; };
 		9756463D26E5B0C400569221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9756464C26E5B14100569221 /* FlagRaisingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagRaisingView.swift; sourceTree = "<group>"; };
+		9756465126E5B17A00569221 /* FlagSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagSelectorView.swift; sourceTree = "<group>"; };
+		9756465626E5B63200569221 /* Flag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +105,11 @@
 			children = (
 				9756461E26E5B0B800569221 /* Firey_Flag_RaiserApp.swift */,
 				9756462026E5B0B800569221 /* ContentView.swift */,
+				9756464C26E5B14100569221 /* FlagRaisingView.swift */,
+				9756465626E5B63200569221 /* Flag.swift */,
+				9756465126E5B17A00569221 /* FlagSelectorView.swift */,
 				9756462226E5B0C300569221 /* Assets.xcassets */,
+				9748A6B626E709CD008C0B9C /* FlagData.json */,
 				9756462726E5B0C300569221 /* Info.plist */,
 				9756462426E5B0C300569221 /* Preview Content */,
 			);
@@ -234,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9756462626E5B0C300569221 /* Preview Assets.xcassets in Resources */,
+				9748A6B726E709CD008C0B9C /* FlagData.json in Resources */,
 				9756462326E5B0C300569221 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +274,9 @@
 			files = (
 				9756462126E5B0B800569221 /* ContentView.swift in Sources */,
 				9756461F26E5B0B800569221 /* Firey_Flag_RaiserApp.swift in Sources */,
+				9756465726E5B63200569221 /* Flag.swift in Sources */,
+				9756464D26E5B14100569221 /* FlagRaisingView.swift in Sources */,
+				9756465226E5B17A00569221 /* FlagSelectorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
